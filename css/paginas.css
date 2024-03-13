@@ -1,30 +1,15 @@
 .paginas{
     width: 100%;
-    height: 100%;
+    height: 91.7vh;
     border: 1px solid black;
     grid-row-start: 2;
     grid-column-start: 2;
 
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 50% 50%;
     gap: 0.5rem;
-    padding: 1rem;
-    padding-bottom: 0.5rem;
-}
-.contenedor{
-    width: 100%;
-    height: 100%;
-    border-radius: 2rem;
-    gap: 0.1rem;
-    padding: 0.3rem;
-
-    grid-row-start: 1;
-    grid-column-start: 1;
-    grid-column-end: 5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 0.5rem;
 }
 .proyectos{
     width: 95%;
@@ -34,8 +19,21 @@
     border-radius: 2rem;
 
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 50% 1fr 34% 1fr;
+}
+.contenedor{
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    padding: 0.3rem;
+
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .img_proyectos{
     border-radius: 1rem;
@@ -48,7 +46,7 @@
     margin-left: 0.5rem;
     grid-row-start: 2;
     grid-column-start: 1;
-    grid-column-end: 5;
+    grid-column-end: 6;
 }
 .descripcion{
     color: black;
@@ -58,8 +56,9 @@
     grid-column-end: 5;
 }
 .github_a{
+    margin: auto;
     grid-column-start: 4;
-    grid-column-end: 5;
+    grid-column-end: 6;
     grid-row-start: 4;
 }
 .github{
