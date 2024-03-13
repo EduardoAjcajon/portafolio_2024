@@ -1,4 +1,4 @@
-.contenedor{
+.paginas{
     width: 100%;
     height: 100%;
     border: 1px solid black;
@@ -7,18 +7,74 @@
 
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 49% 1fr 49%;
-    gap: 1rem;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0.5rem;
     padding: 1rem;
+    padding-bottom: 0.5rem;
+}
+.contenedor{
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    gap: 0.1rem;
+    padding: 0.3rem;
+
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .proyectos{
-    width: 85%;
-    height: 85%;
+    width: 95%;
+    height: 95%;
     margin: auto;
     border: 1px solid red;
     border-radius: 2rem;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 50% 1fr 34% 1fr;
 }
-.linea{
+.img_proyectos{
+    border-radius: 1rem;
+    width: 95%;
+    height: 95%;
+
+}
+.titulo{
+    color: black;
+    margin-left: 0.5rem;
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.descripcion{
+    color: black;
+    margin-left: 0.5rem;
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.github_a{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+}
+.github{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.6rem;
+    width: 5rem;
+    height: 2rem;
+    color: white;
+    background-color: black;
+    margin-bottom: 0.2rem;
+}
+
+/* .linea{
     border: 1px solid black;
     grid-row-start: 2;
     grid-row-end: 2;
@@ -31,4 +87,4 @@
     margin: auto;
     border: 1px solid red;
     border-radius: 2rem;
-}
+} */
