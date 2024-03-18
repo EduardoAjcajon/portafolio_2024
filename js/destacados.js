@@ -6,7 +6,7 @@ lista_webs.forEach((cada_web) => {
     div_web.classList.add("proyectos")
     div_web.innerHTML = `
         <a href="${cada_web.github_page}" class="contenedor">
-            <img src="${cada_web.img}" alt="" class="img_proyectos"/>
+            <img src="${cada_web.img}" alt="" class="img_proyectos"/ id="${cada_web.id}">
         </a>
             <h2 class="titulo">${cada_web.nombre}</h2>
             <p class="descripcion">${cada_web.descripcion}</p>
