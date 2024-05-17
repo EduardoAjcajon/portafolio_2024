@@ -12,8 +12,8 @@
     padding: 0.5rem;
 }
 .parte_superior .logo{
-    width: 4rem;
-    height: 4rem;
+    width: 3.5rem;
+    height: 3.5rem;
 
     background-color: rgb(208, 204, 204); 
     border-radius: 100%;
@@ -26,8 +26,8 @@
 }
 
 .parte_superior nav {
-    width: 50rem;
-    height: 4rem;
+    width: 50rem;   
+    height: 3.8rem;
     font-size: 1.3rem;
     display: flex;
     align-items: center;
@@ -39,10 +39,10 @@
 
 .parte_superior .btn_header {
     width: 16rem;
-    height: 4rem;
+    height: 3.8rem;
     background-color: white;
     color: black;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     display: flex;
     justify-content: center;
     align-items: center;

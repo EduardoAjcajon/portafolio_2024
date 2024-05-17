@@ -1,6 +1,6 @@
 .root{
     width: 100%;
     display: grid;
-    grid-template-rows: 1fr 95%;
+    grid-template-rows: 5rem 20.5rem 1fr;
     grid-template-columns: 20rem 1fr;
 }
