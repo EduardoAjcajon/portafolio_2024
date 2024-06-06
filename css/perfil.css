@@ -31,7 +31,6 @@
 }
 
 .barra_lateral .lenguajes{
-    background-color: red;
     grid-row-start: 2;
     grid-row-end: 7;
     display: grid;
